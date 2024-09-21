@@ -1,0 +1,278 @@
+.container {
+    background-color: #ececec;
+  }
+
+  .section {
+    padding: 94px 0;
+  }
+  
+  /* Header styles */
+  
+ .header {
+   display: flex;
+   justify-content: space-around;
+   padding: 25px 0;
+   border-bottom: 1px solid #ECECEC;
+}
+
+  .logo_text {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2196f3;
+    margin: 0;
+  }
+
+  .logo_sub_title {
+    color: #000000;
+  }
+
+  .header_nav{
+    margin-left: -250px;
+  }
+  
+  .nav_list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav_item {
+    margin-right: 50px;
+  }
+
+  .nav_item:last-child {
+    margin-right: 0px;
+  }
+
+  .nav_link {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #212121;
+  }
+  
+  .nav_link:hover {
+    color: #2196f3;
+    cursor: pointer;
+  }
+
+  .address_list {
+    display: flex;
+    margin: 0px;
+  }
+
+  .contact_item {
+    margin-right: 50px;
+  }
+
+  .contact_item:last-child {
+    margin-right: 0;
+  }
+
+  .contact_link {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #757575;
+    margin-right: 50px;
+  }
+
+  .contact_link:hover {
+    color: #2196f3;
+    cursor: pointer;
+  }
+
+  .contact_link:last-child {
+    margin-right: 0px;
+  }
+    
+  /* business section styles*/
+
+  .business_section {
+      background-color: #2f303a;
+      padding: 200px 450px 200px 450px;
+    }
+
+  .title_cont {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .business__title {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 44px;
+    color: #ffffff;
+  }
+
+  .btn_block {
+    display: flex;
+    justify-content: center;
+  }
+
+  .business__button {
+    font-family: Roboto;
+    font-size: 16px;
+    width: 216px;
+    height: 50px;
+    background-color:#2196f3;
+    color: #ffffff;
+  }
+
+    /*goals styles*/
+
+  .goals_section {
+    padding: 94px 215px;
+  }
+
+  .goal_list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .goal_title {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #212121;
+    margin: 0px 0px 10px 0px
+  }
+
+  .goal_item {
+    margin-right: 30px;
+  }
+
+  .goal_item:last-child {
+    margin-right: 0;
+  }
+  
+
+  .goal_text {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #757575;
+    margin: 0; 
+  }
+
+    /*our works section*/
+
+  .our_works_section {
+    padding: 0px 215px;
+  }
+
+  .works_title {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    color: #212121;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .works_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .works {
+    margin-right: 30px;
+  }
+
+  .works:last-child {
+    margin-right: 0px;
+  }
+
+  /*team section*/
+
+  .our_team_section {
+    padding: 186px 215px 94px 215px;
+    background-color: #F5F4FA;
+  }
+
+  .our_team_title {
+    font-family: Roboto;
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }  
+
+  .team_list {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .team_title {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #212121;
+    text-align: center;
+    margin: 30px 0px 10px 0px;  
+  }
+
+  .team_text {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    
+  }
+
+  .team_item {
+    margin-right: 30px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px ;
+
+  }
+
+  .team_item:last-child {
+    margin-right: 0;
+  }
+
+  /*footer section*/
+
+ .footer {
+    background-color: #2F303A; 
+    padding: 60px 0 60px 215px;
+ }
+
+ .logo_block {
+  margin-bottom: 20px;    
+ }
+
+  .white {
+    color:#ffffff
+  }
+
+  .address_list {
+  padding: 0;
+  }
+
+  .column {
+    display: block;
+  }
+
+  .address_link {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+  .gray {
+    color:gray;
+  }
+
+  .address_item {
+    padding-bottom: 9px;  
+  }
+
+  .address_item:last-child {
+    padding-bottom: 0px;
+  }
+
+ 
+
+  
