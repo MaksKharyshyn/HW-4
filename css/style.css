@@ -69,6 +69,10 @@
     margin-right: 0;
   }
 
+  .contact_item_group {
+    
+  }
+
   .contact_link {
     font-family: Roboto;
     font-size: 14px;
@@ -90,6 +94,7 @@
   .business_section {
       background-color: #2f303a;
       padding: 200px 450px 200px 450px;
+      background-image: url(/images/business_bg_img.jpg);
     }
 
   .title_cont {
@@ -129,6 +134,15 @@
     margin: 0;
     padding: 0;
   }
+
+  .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  } 
 
   .goal_title {
     font-family: Roboto;
@@ -230,6 +244,40 @@
 
   .team_item:last-child {
     margin-right: 0;
+  }
+
+  .social_block {
+    padding: 0 44px 42px 44px;
+  }
+
+  .social_list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social_item {
+    margin-right: 22px;
+  }
+
+  .social_name {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* main_client */
+
+  .client_title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #212121;
+  }
+
+  .blue:hover {
+    fill: #2196f3;
   }
 
   /*footer section*/
