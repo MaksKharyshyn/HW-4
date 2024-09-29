@@ -1,5 +1,5 @@
 .container {
-    background-color: #ececec;
+    background-color: #ffffff;
   }
 
   .section {
@@ -166,11 +166,15 @@
   .goal_icon_wrapper {
     display: flex;
     justify-content: center;
+    background-color: #ececec;
+    padding: 25px 100px;
+    margin-bottom: 30px;  
   }
   
   .pennis {
     width: 70px;
     height: 70px;
+
   }
 
   .goal_text {
@@ -260,16 +264,19 @@
   }
 
   .social_block {
-    padding: 0 44px 42px 44px;
+    /*
+    padding: 0 44px 42px 44px; */
   }
 
   .social_list {
     display: flex;
     justify-content: center;
+    padding-left: 0;
+    margin-bottom: 42px;
   }
 
   .social_item {
-    margin-right: 22px;
+    margin-right: 26px;
   }
 
   .social_name {
@@ -369,10 +376,6 @@
     width: 44px;
     height: 44px;
     margin-right: 10px;
-  }
-
-  .social_name {
-    padding: 12px;
   }
  
 
