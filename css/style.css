@@ -98,7 +98,7 @@
   .business_section {
       background-color: #2f303a;
       padding: 200px 450px 200px 450px;
-      background-image: url(/images/business_bg_img.jpg);
+      background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/business_bg_img.jpg);
     }
 
   .title_cont {
@@ -366,15 +366,26 @@
 
   .footer {
     display: flex;
-    justify-content: center;
+  }
+
+  .logo_wrapper {
+    margin-right: 70px;
   }
 
   .join_title {
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #ffffff;
   }
 
   .icon_list {
     display: flex;
+    padding-left: 0;  
   }
 
   .icon_item {
@@ -383,6 +394,9 @@
     width: 44px;
     height: 44px;
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
  
 
