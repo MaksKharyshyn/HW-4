@@ -263,11 +263,6 @@
     margin-right: 0;
   }
 
-  .social_block {
-    /*
-    padding: 0 44px 42px 44px; */
-  }
-
   .social_list {
     display: flex;
     justify-content: center;
@@ -299,15 +294,27 @@
   .client_list {
     display: flex;
     justify-content: center;
-    
-   
+    margin-bottom: 94px;
   }
 
   .client_item {
+    display: flex;
+    justify-content: center;
     width: 43px;
     height: 41px;
-    border: 1px;
-    border-radius: 4px solid red;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px ;
+    padding: 16px 56px;
+    margin-right: 30px;
+  }
+
+  .client_item:last-child {
+    margin-right: 0;
+  }
+
+  .blue {
+    height: 40px;
+    width: 100px;
   }
 
   .blue:hover {
